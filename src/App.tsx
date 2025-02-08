@@ -121,7 +121,7 @@ function App() {
               alt="WhatsApp" 
               className="w-8 h-8 sm:w-10 sm:h-10"
             />
-            <span className="text-sm sm:text-lg font-medium">Vivendo de Surebet - Free</span>
+            <span className="text-sm sm:text-lg font-medium">Grupo de entradas free - Surebet</span>
           </div>
         </a>
       </div>
