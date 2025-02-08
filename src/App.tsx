@@ -222,7 +222,7 @@ function App() {
           </button>
           <button
             onClick={toggleTheme}
-            className={`px-3 sm:px-6 py-1.5 sm:py-3 text-xs sm:text-base font-medium ${isDark ? 'text-yellow-400 border-yellow-500' : 'text-purple-400 border-purple-500'} border rounded-md ${isDark ? 'hover:bg-black' : 'hover:bg-gray-100'} transition-colors flex items-center gap-1 sm:gap-2`}
+            className={`px-3 sm:px-6 py-1.5 sm:py-3 text-xs sm:text-base font-medium ${isDark ? 'text-yellow-400 border-yellow-500' : 'text-black-400 border-black-500'} border rounded-md ${isDark ? 'hover:bg-black' : 'hover:bg-gray-100'} transition-colors flex items-center gap-1 sm:gap-2`}
           >
             {isDark ? <Sun className="w-3 h-3 sm:w-5 sm:h-5" /> : <Moon className="w-3 h-3 sm:w-5 sm:h-5" />}
             {isDark ? 'Modo Claro' : 'Modo Escuro'}
